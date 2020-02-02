@@ -29,13 +29,11 @@ The following components are currently implemented:
 ### Iris classification using a fully-connected neural network (FCN)
 
 The program iris_dense_classifier.py implements a simple fully-connected network to classify the flowers in
-the Iris dataset. Since the network is fully-connected (as opposed to convolutional), the images are flattened
-before fed to the network. This process removes the spatial relationships between pixels, but nevertheless
-such a model can achieve high accuracy (96% with default settings here).
+the Iris dataset.
 
 Example run:
 ```console
-$ python iris_dense_classifier.py −−n_train 2000 −−n_val 200 −−n_test 1000 −−batch_size 100 −−epochs 1
+$ python iris_dense_classifier.py −−n_train 100 −−n_val 25 −−n_test 25 −−batch_size 150 −−epochs 30000
 ```
 
 This should give the following output:
