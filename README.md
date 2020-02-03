@@ -62,15 +62,16 @@ $ python mnist_cnn_classifier.py −−n_train 2000 −−n_val 200 −−n_test
 ```console
 Starting training with batch size 100 for 200 epochs
 Epoch 1, mini batch 1, training loss = 7.15, validation loss = 11.55
-Epoch 2, mini batch 1, training loss = 12.36, validation loss = 10.36
+Epoch 1, mini batch 2, training loss = 12.36, validation loss = 10.36
 ...
-Epoch 29999, mini batch 1, training loss = 2.37, validation loss = 1.51
-Epoch 30000, mini batch 1, training loss = 1.80, validation loss = 1.74
+Epoch 1, mini batch 19, training loss = 2.37, validation loss = 1.51
+Epoch 1, mini batch 20, training loss = 1.80, validation loss = 1.74
 Training took 59 minutes
 Final test set accuracy = 45.40%
 ```
 
-Both training and validation loss show favorable convergence over this first epoch. Accuracy is computed using a random sample of 1000 images from the test set. The initial learning rate used here was 0.001. I did not spend much time further optimizing the learning rate.
+Both training and validation loss show favorable convergence over this first epoch, but more epochs would be needed to
+achieve higher accuracy. Accuracy is computed using a random sample of 1000 images from the test set. The initial learning rate used here was 0.001. I did not spend much time further optimizing the learning rate.
 
 
 
