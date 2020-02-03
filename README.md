@@ -2,7 +2,7 @@
 
 This package imaplements all the basics for training neural networks using the backpropagation algorithm.
 I originally wrote it as personal exercise, and now I'm using it for teaching others about neural nets.
-The code is inspired by Andrej Karpathy's awesome cs231n course at Stanford [http://cs231n.github.io](http://cs231n.github.io) along with [https://github.com/MahanFathi/CS231](some) [https://github.com/Twice22/CS231n-solutions](great) [https://github.com/benbo/adagrad/blob/master/adagrad.py](sources). However, I decided to write my version of the code in a more object oriented way. This allows to define a network in just a few simple and almost self-explanatory lines of code, reminiscent of Keras and other high-level libraries:
+The code is inspired by Andrej Karpathy's awesome cs231n course at Stanford [http://cs231n.github.io](http://cs231n.github.io) along with [some](https://github.com/MahanFathi/CS231) [great](https://github.com/Twice22/CS231n-solutions) [sources](https://github.com/benbo/adagrad/blob/master/adagrad.py). However, I decided to write my version of the code in a more object oriented way. This allows to define a network in just a few simple and almost self-explanatory lines of code, reminiscent of Keras and other high-level libraries:
 
 ```python
 model = NN.Model()
